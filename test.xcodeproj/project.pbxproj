@@ -14,8 +14,8 @@
 		E0D7EA0920609E83001EE4D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0D7EA0720609E83001EE4D3 /* Main.storyboard */; };
 		E0D7EA0B20609E83001EE4D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0D7EA0A20609E83001EE4D3 /* Assets.xcassets */; };
 		E0D7EA0E20609E83001EE4D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0D7EA0C20609E83001EE4D3 /* LaunchScreen.storyboard */; };
-		E0D7EA1920609E83001EE4D3 /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D7EA1820609E83001EE4D3 /* testTests.swift */; };
 		E0D7EA262060A8C2001EE4D3 /* FooService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D7EA252060A8C2001EE4D3 /* FooService.swift */; };
+		E0D7EA282060D657001EE4D3 /* FooServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D7EA272060D657001EE4D3 /* FooServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +40,9 @@
 		E0D7EA0D20609E83001EE4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0D7EA0F20609E83001EE4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0D7EA1420609E83001EE4D3 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0D7EA1820609E83001EE4D3 /* testTests.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = testTests.swift; sourceTree = "<group>"; tabWidth = 2; };
 		E0D7EA1A20609E83001EE4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0D7EA252060A8C2001EE4D3 /* FooService.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = FooService.swift; sourceTree = "<group>"; tabWidth = 2; };
+		E0D7EA272060D657001EE4D3 /* FooServiceTests.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = FooServiceTests.swift; sourceTree = "<group>"; tabWidth = 2; };
 		F1B2C176944CD90C7B38F155 /* Pods-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.release.xcconfig"; sourceTree = "<group>"; };
 		F309151CB465E880162BC14F /* Pods_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F359F59879E3B4256D2CC019 /* Pods_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,8 +116,8 @@
 		E0D7EA1720609E83001EE4D3 /* testTests */ = {
 			isa = PBXGroup;
 			children = (
-				E0D7EA1820609E83001EE4D3 /* testTests.swift */,
 				E0D7EA1A20609E83001EE4D3 /* Info.plist */,
+				E0D7EA272060D657001EE4D3 /* FooServiceTests.swift */,
 			);
 			path = testTests;
 			sourceTree = "<group>";
@@ -365,7 +365,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0D7EA1920609E83001EE4D3 /* testTests.swift in Sources */,
+				E0D7EA282060D657001EE4D3 /* FooServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
