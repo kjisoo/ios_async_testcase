@@ -22,14 +22,14 @@ class RxFooService {
   ///     - delay: delay for emitted
   /// - Returns: Observer to receive param after delay
   ///
-  public func execute(param: Any, delay: Double) -> Observable<Any> {
+  public func execute(param: Any, delay: Double, scheduler: SchedulerType = MainScheduler.instance) -> Observable<Any> {
     self.cancel()
     return Observable<Any>
       .create({ (observer) -> Disposable in
         observer.onNext(param)
         return Disposables.create()
       })
-      .delay(delay, scheduler: MainScheduler.instance)
+      .delay(delay, scheduler: scheduler)
       .takeUntil(self.cancelSubject)
   }
   
